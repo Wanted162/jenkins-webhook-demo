@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'master',
+                git branch: 'main',
                     url: 'https://github.com/Wanted162/jenkins-webhook-demo.git'
             }
         }
